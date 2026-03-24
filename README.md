@@ -1,15 +1,15 @@
 # Blood-Donation-Prediction-using-Machine-Learning
 Machine Learning project to predict blood donation behavior using Logistic Regression, TPOT, and Linear Regression with AUC evaluation, ROC analysis, and donor behavior insights.
-# 🩸 Blood Donation Prediction using Machine Learning
 
-## 📌 Project Overview
+
+##  Project Overview
 This project aims to predict whether a blood donor will donate blood in a future campaign using historical donor data. The dataset includes behavioral features such as Recency, Frequency, Monetary value, and Time.
 
 The project applies machine learning techniques along with data analysis to build predictive models and extract meaningful insights for blood donation forecasting.
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 - Predict whether a donor will donate blood (Binary Classification)
 - Compare multiple machine learning models
 - Evaluate performance using AUC, ROC Curve, and Confusion Matrix
@@ -18,7 +18,7 @@ The project applies machine learning techniques along with data analysis to buil
 
 ---
 
-## 📊 Dataset Description
+##  Dataset Description
 The dataset contains 748 donor records with the following features:
 
 - **Recency (months):** Months since last donation  
@@ -29,7 +29,7 @@ The dataset contains 748 donor records with the following features:
 
 ---
 
-## ⚙️ Technologies Used
+##  Technologies Used
 - Python 3.10
 - Pandas, NumPy
 - Scikit-learn
@@ -38,7 +38,7 @@ The dataset contains 748 donor records with the following features:
 
 ---
 
-## 🔄 Project Workflow
+##  Project Workflow
 1. Data Loading and Inspection  
 2. Data Cleaning and Preprocessing  
 3. Train-Test Split (Stratified)  
@@ -50,7 +50,7 @@ The dataset contains 748 donor records with the following features:
 
 ---
 
-## 🤖 Models Used
+##  Models Used
 
 | Model | AUC Score |
 |------|----------|
@@ -60,7 +60,7 @@ The dataset contains 748 donor records with the following features:
 
 ---
 
-## 📈 Model Evaluation
+##  Model Evaluation
 
 ### Confusion Matrix
 Used to evaluate classification performance:
